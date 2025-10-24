@@ -1,1 +1,0 @@
-print"AYO FUNNY BAKA AYOOOOOOO SUS LMOADOAWODAWOD hi i lost my mind???"
