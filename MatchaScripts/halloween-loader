@@ -1,1 +1,11 @@
+local url = "https://raw.githubusercontent.com/kylosilly/Femboy.Cute/main/MatchaScripts/halloween%20games/"..game.GameId..".lua"
 
+local success, code = pcall(function()
+    return game:HttpGet(url)
+end)
+
+if (success) then
+    loadstring(code)();
+else
+    error(code);
+end
